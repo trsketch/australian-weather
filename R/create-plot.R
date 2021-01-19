@@ -18,7 +18,8 @@ df %>%
   geom_point() + 
   labs(caption = "Australian Weathe",
        x = "Temperature (degrees)",
-       y = "Humidity (metric)")
+       y = "Humidity (metric)") +
+  facet_wrap(~WindDir9am)
 
 # Save the plot in graphics/
 ggsave(filename = "graphics/scatter-temp-humidity.png", plot = scatter_plot)
