@@ -2,7 +2,7 @@
 
 library("tidyverse")
 
-# Read in the data
+# Read in the data using read_csv
 
 df = read_csv("data/weatherAUS.csv")
 
