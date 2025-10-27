@@ -1,4 +1,5 @@
 # Simple script analysing the Australian weather data
+# Another comment
 
 library("tidyverse")
 
